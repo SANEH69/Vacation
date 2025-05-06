@@ -1,0 +1,75 @@
+body {
+    background: #4C67CD;
+    text-align: center;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.cover-page {
+    background-image: linear-gradient(rgba(0, 0 , 0, 0.7), rgba(0, 0 , 0, 0.7)), url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/165/000/original/top_pic.jpg?1746548027);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px 170px;
+    color: beige;
+}
+.cover-page a {
+    color: beige;
+    text-decoration: none;
+}
+.cover-page a:hover {
+    color: #00A6ED;
+}
+.cover-page h1, h2 {
+    font-size: 50px;
+}
+.images {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 6px;
+}
+img {
+    width: 650px;
+    border-radius: 10px;
+}
+a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.QNT-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 600px;
+    margin: auto;
+    grid-gap: 5px;
+}
+.QNT-images img {
+    width: 200px;
+    border-radius: 10px;
+}
+.city-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1300px;
+    margin: auto;
+}
+.activities {
+    border-top: 5px solid black;
+}
+footer {
+    margin-top: 10px;
+    font-size: large;
+    font-weight: 900;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #6F0797;
+}
