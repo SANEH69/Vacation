@@ -24,12 +24,7 @@ body {
 .cover-page h1, h2 {
     font-size: 50px;
 }
-.images {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-gap: 6px;
-}
-img {
+.images img {
     width: 650px;
     border-radius: 10px;
 }
@@ -72,4 +67,28 @@ footer a {
 }
 footer a:hover {
     color: #6F0797;
+}
+@media (max-width: 1500px) {
+    body, .activities, .city-contents, .cover-page {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .city-contents {
+        grid: none;
+    }
+    .QNT-images img {
+        width: 100px;
+    }
+    .images img {
+        align-items: center;
+        width: 300px;
+    }
+    .cover-page h1, h2 {
+        font-size: medium;
+    }
+    ul {
+        display: list-item;
+    }
 }
