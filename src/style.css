@@ -11,7 +11,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 250px 170px;
+    padding: 190px 170px;
     color: beige;
 }
 .cover-page a {
@@ -23,6 +23,17 @@ body {
 }
 .cover-page h1, h2 {
     font-size: 50px;
+}
+button {
+    padding: 10px 15px;
+    background: #347BF9;
+    color: bisque;
+    font-size: medium;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: beige;
 }
 .images img {
     width: 650px;
