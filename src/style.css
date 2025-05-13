@@ -50,7 +50,7 @@ ul {
 }
 .QNT-images {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     max-width: 600px;
     margin: auto;
     grid-gap: 5px;
@@ -58,6 +58,10 @@ ul {
 .QNT-images img {
     width: 200px;
     border-radius: 10px;
+}
+.QNT {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 .city-contents {
     display: grid;
