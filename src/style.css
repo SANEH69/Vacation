@@ -1,13 +1,13 @@
 body {
     background: #4C67CD;
     text-align: center;
-    font-family: "Winky Rough", sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 .cover-page {
-    background-image: linear-gradient(rgba(0, 0 , 0, 0.7), rgba(0, 0 , 0, 0.7)), url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/165/000/original/top_pic.jpg?1746548027);
+    background-image: linear-gradient(rgba(0, 0 , 0, 0.7), rgba(0, 0 , 0, 0.7)), url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/165/733/original/2.jpg?1747171972);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,8 +21,9 @@ body {
 .cover-page a:hover {
     color: #00A6ED;
 }
-.cover-page h1, h2 {
-    font-size: 50px;
+.cover-page h1 {
+    font-size: 60px;
+    line-height: 2;
 }
 button {
     padding: 10px 15px;
